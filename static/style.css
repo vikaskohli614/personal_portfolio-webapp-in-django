@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
+*{
+margin: 0;
+padding: 0;
+}
+/* all page sidebar */
+.sidebar{
+background-color: rgb(141, 137, 137);
+width: 15vw;
+padding: 90px 5px;
+font-size: 25px;
+font-family: 'Poppins', sans-serif;
+transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+padding: 70px;
+}
+.tag{
+font-size: 40px;
+}
+.list li{
+list-style: none;
+padding: 15px 0px;
+}
+.list li a{
+list-style: none;
+text-decoration: none;
+color: azure;
+}
+/* index page main content*/
+.main{
+background-color: white ;
+width: 85vw;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+display: flex;
+height: 100vh;
+}
+
+.infocontainer{
+/*background-color:white;*/
+width: 80vw;
+height: 65vh;
+margin: 110px auto;
+display: flex;
+justify-content: space-around;
+}
+.devinfo{
+display: flex;
+justify-content: center;
+flex-direction: column;
+font-family: 'Work Sans', sans-serif;
+}
+.hello{
+font-size: 60px;
+
+}
+.name{
+font-size: 55px;
+}
+.about{
+font-size: 40px;
+
+}
+.buttons{
+padding: 25px 0px;
+}
+.buttons button{
+padding: 12px 10px;
+border-radius: 20px;
+cursor: pointer;
+font-weight: bold;
+margin: 5px 9px;
+background-color: rgb(141, 137, 137);
+border: 2px;
+font-size: 15px;
+}
+.buttons button:hover{
+background-color: rgb(141, 137, 137);
+color: white;
+}
+.devPic img{
+height: 65vh;
+}
+.hamburger{
+cursor: pointer;
+position: absolute;
+top: 10px;
+left: 10px;
+}
+.cross{
+margin-left: 160px;
+}
+.sidebargo{
+transform: translate(-200px, 0px);
+position: absolute;
+}
+
+/* service page content*/
+
+.service-head{
+display: flex;
+/*border: 2px solid green;*/
+padding: 30px 10px ;
+margin: 25px 10px ;
+justify-content: center;
+font-size: 36px;
+font-family: 'Work Sans', sans-serif;
+
+}
+.boxs{
+display: inline-flex;
+
+}
+.service-box{
+display: flex;
+/*background-color: red;*/
+border: 2px solid rgb(141, 137, 137);
+border-radius: 10px;
+padding: 18px 45px;
+width: 200px;
+margin: 40px 25px;
+justify-content: center;
+}
+.box-head h3{
+text-align: center;
+font-size: 25px;
+}
+
+.head1{
+text-align: center;
+padding: 13px 14px;
+margin: 10px 10px;
+font-size: 19px;
+}
+.btn-2 button{
+padding: 15px 85px;
+border-radius: 20px;
+cursor: pointer;
+font-weight: bold;
+margin: 5px 9px;
+background-color: rgb(141, 137, 137);
+border: 2px;
+font-size: 17px;
+}
+.btn-2 button:hover{
+background-color: rgb(141, 137, 137);
+color: white;
+}
+
+/* blogs page content*/
+
+.blogcontainer{
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.blogcontainer h1{
+padding: 10px 40px;
+font-size: 30px;
+}
+.blogitem{
+margin: 9px 10px;
+padding: 1px 16px ;
+border: 2px solid rgb(141, 137, 137);
+border-radius: 20px;
+font-family: 'Source Code Pro', monospace;
+}
+.btn button{
+padding: 15px 10px;
+border-radius: 20px;
+cursor: pointer;
+font-weight: bold;
+margin: 5px 9px;
+background-color: rgb(141, 137, 137);
+border: 2px;
+font-size: 10px;
+}
+.btn button:hover{
+background-color: rgb(141, 137, 137);
+color: white;
+}
+
+/* contact page */
+.contactform{
+font-family: 'Poppins', sans-serif;
+padding: 30px 40px;
+}
+.contactform h2{
+text-align: center;
+}
+.contactform form div{
+padding: 10px 0px;
+display: flex;
+flex-direction: column;
+}
+.contactform form div input{
+padding: 4px 5px;
+border-radius: 14px;
+margin: 0px 25px;
+}
+#desc{
+padding: 40px 20px;
+}
+.btn-primary{
+padding: 10px 25px;
+border: 5px;
+border-radius: 15px;
+background-color: rgb(141, 137, 137);
+cursor: pointer;
+font-size: medium;
+font-weight: bold;
+}
+.btn-primary:hover{
+background-color: rgb(141, 137, 137);
+color: white;
+}
+
+/* mycv page*/
+.mycv{
+margin: 30px 35px;
+font-family: 'Poppins', sans-serif;
+}
+.mycv p{
+margin: 10px;
+}
+.skillcontainer{
+padding: 12px;
+}
+.skill{
+width: 250px;
+height: 6px;
+background-color: red;
+border: 2px solid black;
+}
+.skillitem{
+/*display: flex;*/
+align-items: center;
+padding: 7px;
+font-size: 20px;
+}
+.hundred{
+width: 250px;
+background-color: green;
+}
+.ninty{
+width: 225px;
+background-color: blueviolet;
+}
+.seventy{
+width: 190px;
+background-color: yellow;
+}
+.fifty{
+width: 125px;
+background-color: red;
+}
+@media (max-width: 1125px){
+
+*{
+background-color: white;
+}
+.sidebar{
+position: absolute;
+}
+.devPic{
+display: none;
+}
+.main{
+font-size: small;
+}
+
+}
